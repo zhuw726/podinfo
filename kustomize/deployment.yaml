@@ -13,7 +13,6 @@ spec:
   selector:
     matchLabels:
       app: podinfo
-      env: tier1
   template:
     metadata:
       annotations:
@@ -47,7 +46,7 @@ spec:
         - --random-error=false
         env:
         - name: PODINFO_UI_COLOR
-          value: "#34577c"
+          value: "#34599c"
         livenessProbe:
           exec:
             command:
