@@ -13,6 +13,7 @@ spec:
   selector:
     matchLabels:
       app: podinfo
+      env: tier1
   template:
     metadata:
       annotations:
